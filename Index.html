@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>じゃんけん</title>
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet" />
+  <link rel="stylesheet" href="css/janken.css">
+</head>
+<!-- 🔽 ここで読み込み 🔽 -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<body>
+  <main>
+
+    <section>
+      <h1>じゃんけん</h1>
+    </section>
+    <div id="state">最初はグー!じゃんけん・・・</div>
+
+    <div>あいて:<span id="com"></span></div>
+
+    <div>あなた:<span id="player"></span></div>
+
+    <button id="gu">グー</button>
+    <button id="cho">チョキ</button>
+    <button id="pa">パー</button>
+    <button id="reset">reset</button>
+    <div>You win:<span id="win">0</span>回</div>
+    <div>You lose:<span id="lose">0</span>回</div>
+
+    <script src="janken.js"></script>
+
+
+  </main>
+</body>
+
+</html>
